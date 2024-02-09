@@ -1,0 +1,20 @@
+{
+  "name": "djs-bot-template",
+  "version": "1.0.0",
+  "description": "bot template",
+  "main": "index.js",
+  "scripts": {
+    "prod": "node . --prod",
+    "deploy-prod": "node deploycmds.js --prod",
+    "dev": "node . --dev",
+    "deploy-dev": "node deploycmds.js --dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/ws": "^1.0.2",
+    "discord.js": "14.14.1",
+    "node-yaml-config": "^1.0.0"
+  }
+}

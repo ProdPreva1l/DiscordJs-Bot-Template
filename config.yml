@@ -1,0 +1,12 @@
+#Production Environment
+prod:
+  bot_token: ""
+  bot_id: ""
+  shards: 3
+
+
+# Development Environment
+dev:
+  bot_token: ""
+  bot_id: ""
+  shards: 1
